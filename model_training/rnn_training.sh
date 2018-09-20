@@ -11,4 +11,4 @@ python -m sockeye.train -d train_data \
                        --max-seq-len 60 \
                        --decode-and-evaluate 500 \
 					   --device-ids -1 \
-                       -o model
+                       -o rnn_model

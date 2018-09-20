@@ -14,4 +14,4 @@ python -m sockeye.train -d train_data \
                		  --batch-size 1024 \
                       --decode-and-evaluate 500 \
 					  --device-ids -1 \
-                      -o model
+                      -o cnn_model
