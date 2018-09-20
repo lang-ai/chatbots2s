@@ -10,4 +10,5 @@ python -m sockeye.train -d train_data \
                        --rnn-attention-type dot \
                        --max-seq-len 60 \
                        --decode-and-evaluate 500 \
+					   --device-ids -1 \
                        -o model

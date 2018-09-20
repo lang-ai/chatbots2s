@@ -13,4 +13,5 @@ python -m sockeye.train -d train_data \
                       --max-seq-len 100 \
                		  --batch-size 1024 \
                       --decode-and-evaluate 500 \
+					  --device-ids -1 \
                       -o model
