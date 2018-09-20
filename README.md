@@ -24,15 +24,15 @@ The [preprocess.py script](data_preprocessing/preprocess.py) has been applied to
 
 The [Sockeye toolkit](https://github.com/awslabs/sockeye/) has been used for building and training the systems, as well as for evaluating the experimental results. In particular, the following models, implemented in Sockeye, has been tested.
 
-- **CNN:** CNNs are expected to better capture semantic relationships between different parts of the text, such as long range dependencies. 
+- **CNN:** CNNs are expected to better capture semantic relationships between different parts of the text, such as long range dependencies. This model can be trained by executing the [cnn_training script](model_training/cnn_training.sh).
 
-- **RNN:** RNNs rely on the use of additional information from previous steps for generating an output, which makes it a highly suitable architecture for sequential problems, such as textual representation.
+- **RNN:** RNNs rely on the use of additional information from previous steps for generating an output, which makes it a highly suitable architecture for sequential problems, such as textual representation. This model can be trained by executing the [rnn_training script](model_training/rnn_training.sh).
 
 - **Transformer:** This model is an implementation of the idea of self-attentional networks, replacing
 recurrent or convolutional layers for building the encoder-decoder. These self-attention layers connect all the tokens in
 the instance. Additionally, the attention layers are divided in sub-layers, each one of
 them representing a (learned) linear projection of the inputs, in a smaller dimension. This mechanism allows the model
-to pay attention to information from different sub-spaces of the input space.
+to pay attention to information from different sub-spaces of the input space. This model can be trained by executing the [transformer script](model_training/transformer_training.sh).
 
 
 ## Evaluation
