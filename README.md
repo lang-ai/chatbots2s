@@ -18,7 +18,7 @@ For the experimentation in a real enterprise scenario, the [Customer Support on 
 
 _(Extracted from https://www.kaggle.com/thoughtvector/customer-support-on-twitter/home)_
 
-The [preprocess.py script]() has been applied to process the dataset and create the files needed to train the models.
+The [preprocess.py script](data_preprocessing/preprocess.py) has been applied to process and clean the dataset and to create the training, validation and testing files. Additionaly, the [prepare_data.sh script](data_preprocessing/prepare_data.sh) creates the files needed by sockeye to train the models.
 
 ## Models
 
