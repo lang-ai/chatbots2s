@@ -1,5 +1,5 @@
 # Chatbot_s2s
-Code and Configuration for **Teaching your bot to talk: How hard can it be?](https://medium.com/p/85e586b2b715/)**.
+Code and Configuration for **[Teaching your bot to talk: How hard can it be?](https://medium.com/p/85e586b2b715/)**.
 
 ## Introduction
 
