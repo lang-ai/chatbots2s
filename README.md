@@ -1,5 +1,5 @@
 # Chatbot_s2s
-Code and Configuration for **[Bringing self-attention architectures into real world scenarios](https://drive.google.com/open?id=1eROR13rDH14sMkT2bE9t_piL12uelz0T)**.
+Code and Configuration for **Teaching your bot to talk: How hard can it be?](https://medium.com/p/85e586b2b715/)**.
 
 ## Introduction
 
